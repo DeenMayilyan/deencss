@@ -1,0 +1,41 @@
+p {
+
+
+}
+
+h2 {
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+
+.table {
+    background-image: url("./aesthetic.jpg");
+    background-size: cover;
+    width: 100%;
+}
+
+
+.td1 {
+    background-image: url("./photo.jpg");
+    background-size: cover;
+    width: 400px;
+    height: 220px;
+}
+
+.td2 {
+    background-image: url("./photo1.jpg");
+    background-size: cover;
+    width: 600px;
+    height: 260px;
+}
+
+.td3 {
+    background-image: url("./photo2.jpg");
+    background-size: cover;
+    width: 400px;
+    height: 220px;
+}
