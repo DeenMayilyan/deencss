@@ -1,7 +1,7 @@
 import React from 'react';
-import './deen.css'
+import './lesson1.css'
 
-const App = () => {
+const Lesson1 = () => {
     return (
 
        <table className="table" align="center">
@@ -27,8 +27,8 @@ const App = () => {
                <td align={"center"}>
                    <table className="td2">
                        <tr>
-                           <td align={"center"} className={"palm"}>
-                               <h2>
+                           <td className={"palm"}>
+                               <h2 align={"center"}>
                                    Lorem Lorem!!!
                                </h2>
                                <p>
@@ -67,4 +67,4 @@ const App = () => {
     );
 };
 
-export default App;
+export default Lesson1;

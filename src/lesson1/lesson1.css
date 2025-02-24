@@ -13,42 +13,43 @@ h1 {
 
 
 .table {
-    background-image: url("./aesthetic.jpg");
+    background-image: url("../assets/images/aesthetic.jpg");
     background-size: cover;
     width: 100%;
 }
 
 
 .td1 {
-    background-image: url("./photo.jpg");
+    background-image: url("../assets/images/photo.jpg");
     background-size: cover;
     width: 400px;
     height: 220px;
 }
 
 .td2 {
-    background-image: url("./photo1.jpg");
+    background-image: url("../assets/images/photo1.jpg");
     background-size: cover;
     width: 600px;
     height: 260px;
 }
 
 .palm {
-    background-image: url("./Palm.png");
+    background-image: url("../assets/images/Palm.png");
     background-size: 70px;
     background-repeat: no-repeat;
+    background-position: top right;
 
 }
 
 .td3 {
-    background-image: url("./photo2.jpg");
+    background-image: url("../assets/images/photo2.jpg");
     background-size: cover;
     width: 400px;
     height: 220px;
 }
 
 .sun2 {
-    background-image: url("./sun2.png");
+    background-image: url("../assets/images/sun2.png");
     background-size: 80px;
     width: 50px;
     height: 100px;
@@ -56,19 +57,21 @@ h1 {
 }
 
 #sticker {
-    background-image: url("./sticker.png");
+    background-image: url("../assets/images/sticker.png");
     background-size: 70px;
     width: 50%;
     background-repeat: no-repeat;
-    text-align: right;
+    background-position: bottom right;
+
 
 
 }
 
 #sticker2 {
-    background-image: url("./sticker2.png");
+    background-image: url("../assets/images/sticker2.png");
     background-size: 70px;
     background-repeat: no-repeat;
+    background-position: bottom left;
 
 }
 
