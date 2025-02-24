@@ -24,21 +24,22 @@ const App = () => {
                </td>
            </tr>
            <tr>
-               <td>
-                   <table align={"center"}>
+               <td align={"center"}>
+                   <table className="td2">
                        <tr>
-                           <td className="td2">
-                               <h2 align={"center"}>
-                                   Lorem Lorem!!!!
+                           <td align={"center"} className={"palm"}>
+                               <h2>
+                                   Lorem Lorem!!!
                                </h2>
                                <p>
                                    Its a long established fact that a reader will be distributed by readable content
-                                   of a page when looking at its layoot. The point of using Lorem Ipsum is that it has
+                                   of a page when looking at its layoet. The point of using Lorem Ipsum is that it has
                                    a mare-or-less normal distribation of letters, as opposed to using` Content here,
                                    content here, making it look like readable English Many desktop The point of using
                                    Lorem Ipsum is that it has a mare-or-less normal distribation of letters, as opposed
                                    to using` Content here, making it look like readable English Many desktop.making it
                                    look like readable English Many desktop readable English Many desktop. making it.
+                                   readable English Many desktop. making it. look
                                </p>
                            </td>
                        </tr>
@@ -46,13 +47,17 @@ const App = () => {
                </td>
            </tr>
            <tr>
-               <td>
-                   <table align={"right"}>
+               <td align={"right"}>
+                   <table className="td3">
                        <tr>
-                           <td className="td3">
-                               <h1 align={"center"}>
-                                  Lorem Lorem!!!!
-                               </h1>
+                           <td className={"sun2"} colSpan={2}></td>
+                       </tr>
+                       <tr>
+                           <td id={"sticker"} className={"lorem"}>
+                              Lorem
+                           </td>
+                           <td id={"sticker2"} className={"lorem1"}>
+                               Lorem!!!
                            </td>
                        </tr>
                    </table>
