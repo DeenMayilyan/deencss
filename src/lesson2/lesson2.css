@@ -1,0 +1,77 @@
+.aesthetic {
+    background-image: url("../assets/images/aesthetic.jpg");
+    background-size: cover;
+    width: 100%;
+
+}
+
+.sunset {
+    background-image: url("../assets/images/photo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 550px;
+    height: 200px;
+    text-align: center;
+
+}
+
+.p {
+    text-align: right;
+    font-weight: bolder;
+    color: burlywood;
+
+}
+
+.table {
+    width: 550px;
+}
+
+.link {
+    background-color: burlywood;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    width: 550px;
+}
+.table1 {
+    background-color: peru;
+    width: 550px;
+}
+
+.h1 {
+    text-shadow: 3px 3px 5px black;
+    text-align: center;
+}
+
+.link1 {
+    color: white;
+    text-align: right;
+
+}
+
+p {
+    text-align: center;
+    color: #ffdf82;
+}
+
+.table2 {
+    width: 550px;
+    text-align: center;
+
+}
+
+h3 {
+    color: saddlebrown;
+}
+
+.link2 {
+    color: saddlebrown;
+}
+
+.link3 {
+    text-align: right;
+    color: saddlebrown;
+}
+
+
+
