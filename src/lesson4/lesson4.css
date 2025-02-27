@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    gap: 1px;
+}
+
+
+.child {
+    display: flex;
+    width: 120px;
+    height: 40px;
+    font-style: italic;
+    background: sienna;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.a {
+    color: white;
+}

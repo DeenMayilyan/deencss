@@ -1,0 +1,27 @@
+p {
+    text-decoration: underline;
+    color: deepskyblue;
+    width: 100px;
+}
+
+.container {
+    background-color: grey;
+    width: 400px;
+}
+
+.input {
+    display: flex;
+    font-style: italic;
+    height: 30px;
+}
+
+select {
+    font-style: italic;
+    width: 100px;
+    height: 30px;
+}
+
+.div {
+    display: flex;
+
+}

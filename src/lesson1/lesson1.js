@@ -1,5 +1,5 @@
 import React from 'react';
-import './lesson1.css'
+
 
 const Lesson1 = () => {
     return (
