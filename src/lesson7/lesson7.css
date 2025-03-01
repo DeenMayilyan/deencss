@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: moccasin;
+    width: 500px;
+    height: 300px;
+}
+
+.div {
+    background-image: url("../assets/images/photo2.jpg");
+    background-size: cover;
+    width: 150px;
+    height: 130px;
+}
+
+.child {
+    display: flex;
+    width: 340px;
+    height: 100px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.her {
+    display: flex;
+    gap: 10px;
+
+}
+
+.input {
+    color: white;
+    background-color: seagreen;
+}
+
+

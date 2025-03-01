@@ -6,22 +6,28 @@ p {
 
 .container {
     background-color: grey;
-    width: 400px;
+    width: 350px;
+    height: 260px;
 }
 
 .input {
     display: flex;
     font-style: italic;
-    height: 30px;
+    height: 20px;
 }
 
 select {
     font-style: italic;
     width: 100px;
-    height: 30px;
+    height: 25px;
 }
 
 .div {
     display: flex;
+    gap: 15px;
+    margin: 20px;
+}
 
+.label {
+    color: white;
 }

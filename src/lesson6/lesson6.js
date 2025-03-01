@@ -1,34 +1,39 @@
 import React from 'react';
-import './lesson6.css'
+// import './lesson6.css'
 const Lesson6 = () => {
     return (
         <div className={"container"}>
-            <div className="div" id="img">
-                <ul>
-                    <li>
-                        HTML
-                    </li>
-                    <li>
-                        CSS
-                    </li>
-                    <li>
-                        PHP
-                    </li>
-                    <li>
-                        Javascript
-                    </li>
-                    <li>
-                        Joomla
-                    </li>
-                    <li>
-                        Wordpress
-                    </li>
-                </ul>
-                <div className={"input"}>
+            <div className={"div"}>
+                <div>
+                    <ul>
+                        <li>
+                            HTML
+                        </li>
+                        <li>
+                            CSS
+                        </li>
+                        <li>
+                            PHP
+                        </li>
+                        <li>
+                            Javascript
+                        </li>
+                        <li>
+                            Joomla
+                        </li>
+                        <li>
+                            Wordpress
+                        </li>
+                    </ul>
+                </div>
+                {/*<div className={"img"}>*/}
+
+                {/*</div>*/}
+                <div>
                     <input type={"text"} />
                 </div>
             </div>
-            <div>
+            <div className={"div2"}>
                 <h1>
                     LOREM IPSUM!!!!!
                 </h1>

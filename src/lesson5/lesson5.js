@@ -4,52 +4,40 @@ const Lesson5 = () => {
     return (
         <div className={"container"}>
             <div className={"div"}>
-                <p>
-                    FirstName
-                </p>
+                FirstName
                 <input type={"text"} placeholder={"FirstName"} className={"input"} />
             </div>
             <div className={"div"}>
-                <p>
-                    LastName
-                </p>
+                LastName
                 <input type={"text"} placeholder={"LastName"} className={"input"} />
             </div>
             <div className={"div"}>
-                <p>
-                    Password
-                </p>
+                Password
                 <input type={"password"} placeholder={"***"} className={"input"} />
             </div>
             <div className={"div"}>
-                <p>
-                    Yes or No?
-                </p>
-                <label>
+                Yes or No?
+                <label className={"label"}>
                     Yes  <input type={"radio"} />
                 </label>
-                <label>
+                <label className={"label"}>
                     No   <input type={"radio"} />
                 </label>
             </div>
             <div className={"div"}>
-                <p>
-                    No or Yes?
-                </p>
-                <label>
+                No or Yes?
+                <label className={"label"}>
                     Yes  <input type={"checkbox"} />
                 </label>
-                <label>
+                <label className={"label"}>
                     No   <input type={"checkbox"} />
                 </label>
-                <label>
+                <label className={"label"}>
                     Maybe<input type={"checkbox"} />
                 </label>
             </div>
-            <div className={"div"}>
-                <p>
-                    Select Item
-                </p>
+            <div className={"div"} id>
+                Select Item
                 <select>
                     <option selected>Lorem</option>
                     <option>1</option>
