@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rosybrown;
+}
+
+.container {
+    width: 700px;
+    background-color: #976778;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 10px;
+    padding: 10px;
+}
+
+.child {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.ul {
+    display: flex;
+    list-style-type: none;
+
+}
+
+.li {
+    background-color: #ffd1d9;
+    color: #e692ca;
+    display: flex;
+    height: 25px;
+    padding: 0 5px;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.li:hover {
+    background-color: #ca6d8d;
+    color: white;
+}
+
+.lii {
+    background-color: #71475e;
+    color: #e692ca;
+    display: flex;
+    height: 25px;
+    padding: 0 5px;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.lii:hover {
+    background-color: #bd87aa;
+    color: white;
+}
+
+.flags {
+    background-color: rgba(83, 83, 83, 0.36);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 3px;
+}
+
+
+.armenia {
+    background-image: url("../assets/images/armenia.png");
+    background-size: 20px;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+.spain {
+    background-image: url("../assets/images/spain.png");
+    background-size: 20px;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+.english {
+    background-image: url("../assets/images/english.png");
+    background-size: 20px;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+.child2 {
+    background-image: url("../assets/images/rlogo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+
+.child3 {
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    justify-content: end;
+}
+
+.search {
+    background-image: url("../assets/images/search.png");
+    background-repeat: no-repeat;
+    background-size: 25px;
+    width: 25px;
+    height: 25px;
+}
+
+.input {
+    color: #e3bcc0;
+}
+
+.child4 {
+    width: 100%;
+    background-color: #ffd1d9;
+    display: flex;
+}
+
+.list {
+    background-color: rgba(218, 185, 206, 0.38);
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 150px;
+}
+
+.div {
+    background-color: #71475e;
+    color: #e3bcc0;
+    padding: 3px;
+}
+
+.div2 {
+    background-color: #71475e;
+    color: #e3bcc0;
+    padding: 3px;
+}
+
+.ul2 {
+    list-style-image: url("../assets/images/checkmark_list_16px.png");
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 20px;
+}
+.li2 {
+    transition: 0.5s;
+}
+
+.li2:hover {
+    background-color: #bd87aa;
+    color: white;
+}
+
+.divik {
+    display: flex;
+    gap: 7px;
+}
+
+.coco{
+    background-color: rgba(186, 127, 157, 0.54);
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    width: 300px;
+
+}
+
+.tulip {
+    background-image: url("../assets/images/tulip.jpg");
+    background-repeat: no-repeat;
+    background-size: 70px;
+    width: 70px;
+    height: 70px;
+    border-radius: 7px;
+}
+
+.oil {
+    color: #775d6e;
+}
+
+.oil2 {
+    color: #4a2539;
+}
+
+.kov {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.kovik {
+    color: #4a2539;
+    width: 230px;
+}
+
+.lusin {
+    display: flex;
+    gap: 3px;
+    font-size: 15px;
+}
+
+.price {
+    color: white;
+}
+
+.pol {
+    background-color: #4a2539;
+    width: 50px;
+    height: 20px;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.tulip2 {
+    background-image: url("../assets/images/tulip2.webp");
+    background-repeat: no-repeat;
+    background-size: 70px;
+    width: 70px;
+    height: 70px;
+    border-radius: 7px;
+}
+
+.tulip3 {
+    background-image: url("../assets/images/tulip3.png");
+    background-repeat: no-repeat;
+    background-size: 70px;
+    width: 70px;
+    height: 70px;
+    border-radius: 7px;
+}
+
+.vanik {
+    background-color: #bd87aa;
+    width: 220px;
+    padding: 5px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tulip4 {
+    background-image: url("../assets/images/tulips.webp");
+    background-repeat: no-repeat;
+    background-size: 207px;
+    height: 150px;
+}
+
+.hav {
+    background-color: #71475e;
+    height: 20px;
+    width: 200px;
+    color: #e3bcc0;
+    padding: 3px;
+}
+
+.havik {
+    background-color: #71475e;
+    width: 195px;
+    color: #e3bcc0;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.tulip5 {
+    background-image: url("../assets/images/tulip5.jpg");
+    background-repeat: no-repeat;
+    background-size: 170px;
+    height: 100px;
+}
+
+.tulip6 {
+    background-image: url("../assets/images/tulip6.jpg");
+    background-repeat: no-repeat;
+    background-size: 170px;
+    height: 100px;
+}
+
+.child5 {
+    background-color: #976778;
+    width: 100%;
+    color: #e3bcc0;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}

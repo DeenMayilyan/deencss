@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 700px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.child {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tulip {
+    background-image: url("../assets/images/tulip.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+}
+
+.aladin {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.alik {
+    width: 520px;
+}
+
+.kapik {
+    color: #a69c9c;
+    width: 300px;
+}
+
+input {
+    width: 70px;
+    height: 30px;
+    background-color: #a69c9c;
+    color: white;
+}
+
+.vagr {
+    display: flex;
+    gap: 10px;
+}
+
+.tulip2 {
+    background-image: url("../assets/images/tulip6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+}
