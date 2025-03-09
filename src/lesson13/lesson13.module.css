@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../assets/images/aesthetic.jpg");
+    background-size: 100vw;
+    background-repeat: no-repeat;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    width: 99vw;
+    padding: 10px;
+    background-color: rgba(12, 12, 12, 0.39);
+    border-bottom: 3px solid rgba(154, 21, 21, 0.39);
+    color: white;
+    font-size: 20px;
+}
+
+.home {
+    transition: 0.5s;
+}
+
+.home:hover {
+    color: #3387dc;
+}
+
+footer {
+    width: 99vw;
+    padding: 10px;
+    background-color: rgba(12, 12, 12, 0.39);
+    border-top: 3px solid rgba(154, 21, 21, 0.39);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.div {
+    width: 600px;
+    min-height: calc(100vh - 130px);
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow: auto;
+}
+
+.joy {
+    color: #572c0d;
+    font-size: 60px;
+    font-family: "Yu Gothic UI Semilight", cursive;
+    text-align: center;
+}
+
+.clasik {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    background-color: rgba(5, 5, 5, 0.47);
+    color: white;
+}
+
+.divik {
+    border-right: 1px solid rgba(154, 21, 21, 0.39);
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.divik:hover {
+    color: deepskyblue;
+}
+
+.divikk {
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.divikk:hover {
+    color: deepskyblue;
+}
+
+.f {
+    background-image: url("../assets/images/apps.jpg");
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    background-size: 360px;
+    background-position: -54px -109px;
+    transition: 0.5s;
+}
+
+.f:hover {
+    background-size: 377px;
+    background-position: -58px -56px;
+}
+
+.i {
+    background-image: url("../assets/images/apps.jpg");
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    background-size: 360px;
+    background-position: -217px -109px;
+    transition: 0.5s;
+}
+
+.i:hover {
+    background-size: 377px;
+    background-position: -229px -56px;
+}
+
+.w {
+    background-image: url("../assets/images/apps.jpg");
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    background-size: 390px;
+    background-position: -177px -120px;
+    transition: 0.5s;
+}
+
+.w:hover {
+    background-position: -178px -59px;
+}
+
+.klorner {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navik {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.kaqav {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.soxak {
+    width: 200px;
+    background-color: black;
+}
+
+.relax {
+    background-image: url("../assets/images/maldiv.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 130px;
+    background-size: cover;
+}
+
+.water {
+    color: #3f89cf;
+    border-bottom: 1px solid #83d6f1;
+    font-size: 10px;
+    padding: 10px;
+}
+
+.havik {
+    color: grey;
+    font-size: 10px;
+    padding: 5px;
+}
+
+.gap {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+input {
+    width: 50px;
+    font-size: 15px;
+    transition: 0.5s;
+}
+
+input:hover {
+    background-color: deepskyblue;
+    color: white;
+}
+
+.gin {
+    color: white;
+}
+
+.d {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 20px 10px;
+}
+
+.relax2 {
+    background-image: url("../assets/images/beach.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 130px;
+    background-size: cover;
+}
+
+.relax3 {
+    background-image: url("../assets/images/cataluna.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 130px;
+    background-size: cover;
+}
+
+.relax4 {
+    background-image: url("../assets/images/maldives.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 130px;
+    background-size: cover;
+}
+
+.waterr {
+    color: #3f89cf;
+    border-bottom: 1px solid #83d6f1;
+    font-size: 8px;
+    padding: 10px;
+}
